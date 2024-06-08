@@ -1,40 +1,12 @@
-body {
-  overflow-x: hidden;
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.text-muted {
-  color: #777;
-}
-
-.text-primary {
-  color: #1ee2e7;
-}
-
-p {
-  font-size: 14px;
-  line-height: 1.75;
-}
-
-p.large {
-  font-size: 16px;
-}
-
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-  outline: 0;
-}
-
-a {
-  color: #1ee2e7;
-}
-
-a:hover,
-a:focus,
-a:active,
-a.active {
-  color: #17d0d5;
+nav{
+  .logo{
+    width: 6%;
+  }
+  background-color: black;
+  li a{
+    color: white;
+  }
+  .dropdown-menu .dropdown-item {
+    color: black; 
+  }
 }
