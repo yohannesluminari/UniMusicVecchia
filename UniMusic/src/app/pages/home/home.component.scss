@@ -1,0 +1,51 @@
+// body {
+//  //background-image: url('/assets/homePageImg/home.jpg');
+//  //background-size: cover; /* Per coprire l'intera area del body */
+//  //background-position: center; /* Per centrare l'immagine */
+//  //height: 100vh; /* Occupa l'intera altezza della viewport */
+//   h1{
+//     color: black;
+//   }
+
+//   video {
+//     width: 100%;
+//     height: 100%;
+//     z-index: 0;
+//   }
+//   .content {
+//     text-align: center;
+//     color: red;
+//     font-size: 24rem;
+//     z-index: 1;
+//   }
+// }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+video {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  z-index: 1;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
