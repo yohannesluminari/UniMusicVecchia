@@ -9,7 +9,7 @@ export class NavbarComponent {
 
   show:boolean = false
   showNavbar: boolean = false;
-  
+
   toggleNavbar(): void {
     this.showNavbar = !this.showNavbar;
   }

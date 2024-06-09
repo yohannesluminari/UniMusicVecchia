@@ -1,12 +1,43 @@
-nav{
-  .logo{
+nav {
+  .logo {
     width: 6%;
   }
   background-color: black;
-  li a{
+  li a {
     color: white;
   }
   .dropdown-menu .dropdown-item {
-    color: black; 
+    color: black;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+}
+
+/* Gestione dell'allineamento su dispositivi mobili */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  /* Centra il form di ricerca e il pulsante "Sign up" sotto i link */
+  .navbar-collapse form,
+  .navbar-collapse a.btn {
+    width: 100%; /* Larghezza comoda per i dispositivi mobili */
+    margin: 10px 0; /* Spaziatura tra il form e il pulsante */
+    text-align: center;
   }
 }
