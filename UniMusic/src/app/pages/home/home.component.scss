@@ -1,5 +1,10 @@
-/* Impostazioni del body e html per occupare tutta l'altezza della viewport */
 body, html {
+  height: 100%; /* Assicura che il body e l'html occupino l'intera altezza della viewport */
+  margin: 0; /* Rimuove margini predefiniti */
+  padding: 0; /* Rimuove padding predefinito */
+}
+
+body {
   display: flex; /* Usa Flexbox per centraggio */
   justify-content: center; /* Centra orizzontalmente */
   align-items: center; /* Centra verticalmente */
@@ -9,7 +14,6 @@ body, html {
 .container {
   transform: skewY(-20deg); /* Mantieni lo skew */
   animation: animate 5s linear infinite; /* Mantieni l'animazione */
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Centra orizzontalmente i cubi */
