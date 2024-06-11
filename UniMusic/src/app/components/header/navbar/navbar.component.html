@@ -6,16 +6,17 @@
     <a class="navbar-brand" href="#"><img src="./assets/UniMusic.png" width="100" /></a>
     <div class="collapse navbar-collapse" [ngClass]="{ 'show': showNavbar }">
       <ul class="navbar-nav me-auto mb-0">
-        <li class="nav-item" [ngClass]="{ 'active': isLinkActive('/pages/home') }">
+        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/home') }">
           <a class="nav-link" aria-current="page" routerLink="/pages/home">Home</a>
         </li>
-        <li class="nav-item" [ngClass]="{ 'active': isLinkActive('/pages/profile') }">
+        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/profile') }">
           <a class="nav-link" routerLink="/pages/profile">Profile</a>
         </li>
-        <li class="nav-item" [ngClass]="{ 'active': isLinkActive('/pages/quiz') }">
+        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/quiz') }">
           <a class="nav-link" routerLink="/pages/quiz">Quiz</a>
         </li>
 
+        <app-switch class="mx-4"></app-switch>
           <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false" (click)="show = !show">Projects</a>
           <ul class="dropdown-menu" [class.show]="show">
