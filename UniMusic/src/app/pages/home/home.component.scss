@@ -9,6 +9,18 @@ body {
   justify-content: center; /* Centra orizzontalmente */
   align-items: center; /* Centra verticalmente */
 }
+/* Contenitore principale del contenuto */
+.content {
+  text-align: center; /* Centra il testo orizzontalmente */
+  color: white; /* Colore del testo */
+  margin-top: 50px; /* Spazio tra il contenuto di testo e i cubi */
+  .uni{
+    color: blue;
+  }
+  .music{
+    color: #ef4149;
+  }
+}
 
 /* Contenitore principale */
 .container {
@@ -18,7 +30,7 @@ body {
   flex-wrap: wrap;
   justify-content: center; /* Centra orizzontalmente i cubi */
   align-items: center; /* Centra verticalmente i cubi */
-  margin-top: 30%;
+  margin-top: 18%;
 
   .cube {
     position: relative;
@@ -100,3 +112,11 @@ body {
     filter: hue-rotate(360deg);
   }
 }
+
+@media screen and (max-width: 750px) {
+  .container{
+    margin-top: 30%;
+  }
+}
+
+// 3D H1 TEXT
