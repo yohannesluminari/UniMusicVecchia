@@ -1,9 +1,18 @@
 <div class="content">
-  <h1>Benvenuto su <span class="uni">Uni</span><span  class="music">Music!</span></h1>
-  <p>Esplora un universo di musica e ascolta le tue tracce preferite</p>
-  <p>Scopri nuove melodie e condividi le tue passioni musicali con la nostra comunità.</p>
+  <h1>Welcome to
+    <div id="box">
+      <p id="flashlight">
+        <span id="flash">Uni</span>
+        <span id="light">Music</span>
+      </p>
+    </div>
+
+    <p class=slogan>Explore a universe of music and listen to your favorite tracks</p>
+    <p class=slogan>Discover new melodies and share your musical passions with our community.</p>
+      </h1>
 </div>
 <div class="container">
+  <p class="left-paragraph">Click on a cube to play and click again to stop</p>
     <div class="cube">
       <div style="--x:-1; --y:0;">
         <span style="--i:3;" (click)="toggleAudio(0)"></span>
@@ -50,6 +59,5 @@
         <span style="--i:1;" (click)="toggleAudio(23)"></span>
       </div>
     </div>
+    <p class="right-paragraph">Enjoy the relaxation with each cube representing a song</p>
 </div>
-
-
