@@ -7,6 +7,8 @@ import { FormsModule } from '@angular/forms';
 import { SwitchComponent } from './components/switch/switch.component';
 import { NavbarComponent } from './components/header/navbar/navbar.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
