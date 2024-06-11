@@ -129,11 +129,7 @@ body {
   }
 }
 
-@media screen and (max-width: 750px) {
-  .container{
-    margin-top: 30%;
-  }
-}
+
 
 // 3D H1 TEXT
 
@@ -188,10 +184,17 @@ body {
   }
 }
 
+/* Sovrascrive la regola .container del media query min-width: 739px e max-width: 1430px */
 @media screen and (min-width: 739px) and (max-width: 1430px) {
   /* Imposta il margin-top per tutti i dispositivi */
   .container {
-    margin-top: 28px;
+    margin-top: 158px; /* Mantieni questa regola invariata */
   }
 }
 
+/* Aggiunge la regola .container per il media query max-width: 750px */
+@media screen and (max-width: 750px) {
+  .container{
+    margin-top: 30%; /* Sovrascrive la regola per il margin-top */
+  }
+}
