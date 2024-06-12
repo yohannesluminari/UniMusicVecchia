@@ -1,12 +1,16 @@
+import { AudioService } from './../../audio.service';
 import { Component } from '@angular/core';
+
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'] // Corretto 'styleUrl' in 'styleUrls'
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  // Array of audio file paths (relative to the `assets` directory)
+  
+  currentAudioIndex: number | null = null;
+
   audioFiles: string[] = [
     'RELAX.mp3', 'RELAX.mp3', 'RELAX.mp3', 'RELAX.mp3', 'RELAX.mp3',
     'RELAX.mp3', 'RELAX.mp3', 'RELAX.mp3', 'RELAX.mp3', 'RELAX.mp3',
@@ -15,42 +19,20 @@ export class HomeComponent {
     'RELAX.mp3', 'RELAX.mp3', 'RELAX.mp3', 'RELAX.mp3'
   ];
 
-  // Current playing audio
-  currentAudio: HTMLAudioElement | null = null;
+  constructor(private audioService:AudioService) {}
 
-  // Index of the currently playing audio
-  currentAudioIndex: number | null = null;
-
-  // Function to toggle audio play and pause
   toggleAudio(index: number): void {
-    const audioSrc = this.getAudioSrc(index);
-
-    // Log the audio source to verify the path
-    console.log('Playing audio from source:', audioSrc);
-
-    // If the same audio is clicked again, pause it
-    if (this.currentAudio && this.currentAudioIndex === index) {
-      this.currentAudio.pause();
-      this.currentAudio.currentTime = 0; // Reset the time
-      this.currentAudio = null;
-      this.currentAudioIndex = null;
+    // Verifica se lo stesso cubo è stato premuto di nuovo senza premere altri cubi prima
+    if (this.currentAudioIndex === index) {
+      // Se sì, interrompi la riproduzione dell'audio corrente
+      this.audioService.pause();
+      this.currentAudioIndex = null; // Resetta l'indice dell'audio corrente
     } else {
-      // If there's an audio currently playing, pause it
-      if (this.currentAudio) {
-        this.currentAudio.pause();
-        this.currentAudio.currentTime = 0; // Reset the time
-      }
+      const audioSrc = `./assets/${this.audioFiles[index]}`;
 
-      // Play the new audio
-      this.currentAudio = new Audio(audioSrc);
-      this.currentAudio.load();
-      this.currentAudio.play();
-      this.currentAudioIndex = index;
+      // Avvia la riproduzione dell'audio desiderato
+      this.audioService.play(audioSrc);
+      this.currentAudioIndex = index; // Salva l'indice dell'audio corrente
     }
-  }
-
-  // Helper function to get the full audio source path
-  getAudioSrc(index: number): string {
-    return `./assets/${this.audioFiles[index]}`;
   }
 }
