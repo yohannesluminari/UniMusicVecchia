@@ -259,16 +259,6 @@
   },
   {
     "id": 1,
-    "nome": "Radical",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
-    "nome": "Thelonius B.",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
     "nome": "Side Baby",
     "immagine": "url_immagine_aaron_cenere.jpg"
   },
@@ -319,17 +309,6 @@
   },
   {
     "id": 1,
-    "nome": "Bassi Maestro",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-
-  {
-    "id": 1,
-    "nome": "CanovA",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
     "nome": "Frenetik&Orange3",
     "immagine": "url_immagine_aaron_cenere.jpg"
   },
@@ -351,11 +330,6 @@
   {
     "id": 1,
     "nome": "CoCo",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
-    "nome": "Drast",
     "immagine": "url_immagine_aaron_cenere.jpg"
   },
   {
@@ -669,5 +643,31 @@
     "id": 15,
     "nome": "Aka 7even",
     "immagine": "url_immagine_aka_7even.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Radical",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Thelonius B.",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+
+  {
+    "id": 1,
+    "nome": "Bassi Maestro",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "CanovA",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Drast",
+    "immagine": "url_immagine_aaron_cenere.jpg"
   }
 ]
