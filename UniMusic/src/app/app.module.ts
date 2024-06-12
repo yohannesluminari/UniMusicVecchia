@@ -6,9 +6,6 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { SwitchComponent } from './components/switch/switch.component';
 import { NavbarComponent } from './components/header/navbar/navbar.component';
-import { PianoComponent } from './components/piano/piano.component';
-
-
 
 @NgModule({
   declarations: [
