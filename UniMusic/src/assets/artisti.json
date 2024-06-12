@@ -1,0 +1,673 @@
+[
+  {
+    "id": 1,
+    "name": "Sfera Ebbasta",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Geolier",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Lazza",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Shiva",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Guè",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tedua",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Marracash",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Pinguini Tattici Nucleari",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Capo Plaza",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Thasup",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+
+  {
+    "id": 11,
+    "name": "ANNA",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Madame",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Annalisa",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Angelina Mango",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Maneskin",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Rose Villain",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+
+  {
+    "id": 17,
+    "name": "Baby Gang",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Gigi D’Agostino",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Laura Pausini",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Gigi D'Alessio",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Tony Boy",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Gemello",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Bnkr44",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Mecna",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Nayt",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Franco126",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Ketama126",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Pretty Solero",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Calcutta",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Bresh",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Capo Plaza",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Frah Quintale",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Ugo Borgetti",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Mace",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Vegas Jones",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "vale Pain",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Asp126",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Mara Sattei",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Izi",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Priestess",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Elodie",
+    "immagine": "url_immagine_alborosie.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Gaia",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Articolo 31",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Venerus",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Ghemon",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Vaz Tè",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Dargen D'Amico",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+
+  {
+    "id": 1,
+    "nome": "Gemitaiz",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Massimo Pericolo",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Rosa Chemical",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Mambolosco",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Radical",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Thelonius B.",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Side Baby",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Disme",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Tony Effe",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Mezzosangue",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Rancore",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Nashley",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Night Skinny",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Mostro",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Il Tre",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Luchè",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Bassi Maestro",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+
+  {
+    "id": 1,
+    "nome": "CanovA",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Frenetik&Orange3",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Joan Thiele",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "3D",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Ernia",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "CoCo",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Drast",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Tananai",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "BLANCO",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Random",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Noyz Narcos",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Inoki",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Chiello",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Carl Brave",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Tredici Pietro",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Holden",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Murubutu",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Willie Peyote",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Coez",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Sick Luke",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "MadMan",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Shiva",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Arite",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Rkomi",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Jake La Furia",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Ensi",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Don Joe",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Claver Gold",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Leon Faun",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Johnny Marsiglia",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Salmo",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Dardust",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Diss Gacha",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Psicologi",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Ultimo",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Artie 5ive",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Ele A",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Fasma",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Ghali",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Gianny Bismark",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Mahmood",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Quentin40",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "VillaBanks",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Adele",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Emis Killa",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Fedez",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "FSK SATELLITE",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Franscesa Michelin",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Gallagher",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Geolier",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "LIl Busso",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Tiziano Ferro",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+
+  {
+    "id": 1,
+    "nome": "Franco Battiato",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Ligabue",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Vasco Rossi",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Negromaro",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Fabri Fibra",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Lucio Dalla",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Max Gazzé",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Gazzele",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Club dogo",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Noemi",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+
+  {
+    "id": 1,
+    "nome": "Aaron Cenere",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "Abbate Federica",
+    "immagine": "url_immagine_abbate_federica.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "Abbate Mario",
+    "immagine": "url_immagine_abbate_mario.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "Achille Lauro",
+    "immagine": "url_immagine_achille_lauro.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Adriano Celentano",
+    "immagine": "url_immagine_adriano_celentano.jpg"
+  },
+  {
+    "id": 14,
+    "nome": "Aiello",
+    "immagine": "url_immagine_aiello.jpg"
+  },
+  {
+    "id": 15,
+    "nome": "Aka 7even",
+    "immagine": "url_immagine_aka_7even.jpg"
+  }
+]
