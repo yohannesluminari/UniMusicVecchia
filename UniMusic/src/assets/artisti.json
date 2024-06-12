@@ -432,11 +432,6 @@
   },
   {
     "id": 1,
-    "nome": "Don Joe",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
     "nome": "Claver Gold",
     "immagine": "url_immagine_aaron_cenere.jpg"
   },
@@ -568,27 +563,12 @@
   },
   {
     "id": 1,
-    "nome": "Ligabue",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
     "nome": "Vasco Rossi",
     "immagine": "url_immagine_aaron_cenere.jpg"
   },
   {
     "id": 1,
-    "nome": "Negromaro",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
     "nome": "Fabri Fibra",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
-    "nome": "Lucio Dalla",
     "immagine": "url_immagine_aaron_cenere.jpg"
   },
   {
@@ -611,31 +591,15 @@
     "nome": "Noemi",
     "immagine": "url_immagine_aaron_cenere.jpg"
   },
-
-  {
-    "id": 1,
-    "nome": "Aaron Cenere",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
   {
     "id": 2,
     "nome": "Abbate Federica",
     "immagine": "url_immagine_abbate_federica.jpg"
   },
   {
-    "id": 3,
-    "nome": "Abbate Mario",
-    "immagine": "url_immagine_abbate_mario.jpg"
-  },
-  {
     "id": 4,
     "nome": "Achille Lauro",
     "immagine": "url_immagine_achille_lauro.jpg"
-  },
-  {
-    "id": 7,
-    "nome": "Adriano Celentano",
-    "immagine": "url_immagine_adriano_celentano.jpg"
   },
   {
     "id": 14,
@@ -671,6 +635,21 @@
   {
     "id": 1,
     "nome": "Drast",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Negromaro",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Lucio Dalla",
+    "immagine": "url_immagine_aaron_cenere.jpg"
+  },
+  {
+    "id": 1,
+    "nome": "Don Joe",
     "immagine": "url_immagine_aaron_cenere.jpg"
   }
 ]
