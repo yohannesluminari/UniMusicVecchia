@@ -1,20 +1,7 @@
-
-
-<div class="slider" reverse= true style="
-  --width:200px;
-  --height:200px;
-  --quantity:10;
-">
+<div class="slider custom-slider">
   <div class="list">
-    <div class="item" style="--position: 1"><img src="/assets/artistiImg/1.jpg" alt="Artista 1"></div>
-    <div class="item" style="--position: 2"><img src="/assets/artistiImg/2.jpg" alt="Artista 2"></div>
-    <div class="item" style="--position: 3"><img src="/assets/artistiImg/3.jpg" alt="Artista 3"></div>
-    <div class="item" style="--position: 4"><img src="/assets/artistiImg/4.jpg" alt="Artista 4"></div>
-    <div class="item" style="--position: 5"><img src="/assets/artistiImg/5.jpg" alt="Artista 5"></div>
-    <div class="item" style="--position: 6"><img src="/assets/artistiImg/6.jpg" alt="Artista 6"></div>
-    <div class="item" style="--position: 7"><img src="/assets/artistiImg/7.jpg" alt="Artista 7"></div>
-    <div class="item" style="--position: 8"><img src="/assets/artistiImg/8.jpg" alt="Artista 8"></div>
-    <div class="item" style="--position: 9"><img src="/assets/artistiImg/9.jpg" alt="Artista 9"></div>
-    <div class="item" style="--position: 10"><img src="/assets/artistiImg/10.jpg" alt="Artista 10"></div>
+    <div *ngFor="let image of images; let i = index" class="item" [style.--position]="i + 1">
+      <img [src]="image.src" [alt]="image.alt">
+    </div>
   </div>
 </div>
