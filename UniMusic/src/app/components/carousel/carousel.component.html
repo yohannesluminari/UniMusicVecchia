@@ -1,7 +1,7 @@
-<div class="slider custom-slider">
+<div class="slider custom-slider" *ngIf="artists.length > 0">
   <div class="list">
-    <div *ngFor="let image of images; let i = index" class="item" [style.--position]="i + 1">
-      <img [src]="image.src" [alt]="image.alt">
+    <div *ngFor="let artist of artists; let i = index" class="item" [style.--position]="i + 1">
+      <img [src]="artist.image" [alt]="artist.name">
     </div>
   </div>
 </div>

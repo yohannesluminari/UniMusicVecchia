@@ -2,71 +2,21 @@
   {
     "id": 1,
     "name": "Sfera Ebbasta",
-    "image": "src/assets/1.jpg"
+    "image": "/assets/artistiImg/1.jpg"
   },
   {
     "id": 2,
     "name": "Geolier",
-    "image": "src/assets/2.jpg"
+    "image": "/assets/artistiImg/2.jpg"
   },
   {
     "id": 3,
     "name": "Lazza",
-    "image": "src/assets/3.jpg"
+    "image": "/assets/artistiImg/3.jpg"
   },
   {
     "id": 4,
     "name": "Shiva",
-    "image": "src/assets/4.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Guè",
-    "image": "src/assets/5.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Tedua",
-    "image": "src/assets/6.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Marracash",
-    "image": "src/assets/7.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Pinguini Tattici Nucleari",
-    "image": "src/assets/8.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Capo Plaza",
-    "image": "src/assets/9.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Thasup",
-    "image": "src/assets/10.jpg"
-  },
-  {
-    "id": 11,
-    "name": "ANNA",
-    "image": "/assets/artistiImg.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Madame",
-    "image": "src/assets/12.jpg"
-  },
-  {
-    "id": 13,
-    "name": "Annalisa",
-    "image": "src/assets/13.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Angelina Mango",
-    "image": "src/assets/14.jpg"
+    "image": "/assets/artistiImg/4.jpg"
   }
 ]
