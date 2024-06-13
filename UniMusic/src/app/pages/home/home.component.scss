@@ -4,9 +4,10 @@
 }
 
 body {
-  display: flex; /* Usa Flexbox per centraggio */
-  justify-content: center; /* Centra orizzontalmente */
-  align-items: center; /* Centra verticalmente */
+  background-color: rgb(36, 150, 159);
+}
+.container{
+  background-color: rgb(255, 255, 255);
 }
 .slogan {
   font-size: 20px; /* Riduci la dimensione del testo */
