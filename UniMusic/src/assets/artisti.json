@@ -351,10 +351,7 @@
     "id": 1,
     "nome": "Noyz Narcos",
     "immagine": "url_immagine_aaron_cenere.jpg"
-  }
-  // MANCA LA VIRGOLA SOPRA...ERROE LASCIATO APPOSTA COME SEGNAPOSTO
-  //TOCCA COMPLETARE IL JSON PARTENDO DA INOKI POI AGGIUISTARE GLI ID ANZI TOGLIERLI PERCHE VERRANO FORNITI DAL BACKEND
-  // E CAMBIARE PERCORSI
+  },
   {
     "id": 1,
     "nome": "Inoki",
@@ -412,7 +409,7 @@
   },
   {
     "id": 1,
-    "nome": "Arite",
+    "nome": "Ariete",
     "immagine": "url_immagine_aaron_cenere.jpg"
   },
   {
@@ -512,11 +509,6 @@
   },
   {
     "id": 1,
-    "nome": "Adele",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
     "nome": "Emis Killa",
     "immagine": "url_immagine_aaron_cenere.jpg"
   },
@@ -542,23 +534,7 @@
   },
   {
     "id": 1,
-    "nome": "Geolier",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
-    "nome": "LIl Busso",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
     "nome": "Tiziano Ferro",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-
-  {
-    "id": 1,
-    "nome": "Franco Battiato",
     "immagine": "url_immagine_aaron_cenere.jpg"
   },
   {
@@ -602,54 +578,57 @@
     "immagine": "url_immagine_achille_lauro.jpg"
   },
   {
-    "id": 14,
-    "nome": "Aiello",
-    "immagine": "url_immagine_aiello.jpg"
-  },
-  {
-    "id": 15,
-    "nome": "Aka 7even",
-    "immagine": "url_immagine_aka_7even.jpg"
-  },
-  {
-    "id": 1,
-    "nome": "Radical",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
-    "nome": "Thelonius B.",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-
-  {
-    "id": 1,
-    "nome": "Bassi Maestro",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
-    "nome": "CanovA",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
-    "nome": "Drast",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
-    "nome": "Negromaro",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
-    "id": 1,
-    "nome": "Lucio Dalla",
-    "immagine": "url_immagine_aaron_cenere.jpg"
-  },
-  {
     "id": 1,
     "nome": "Don Joe",
     "immagine": "url_immagine_aaron_cenere.jpg"
   }
+
 ]
+
+
+// { DA AGGIOUNGERE O NO 
+//   "id": 14,
+//   "nome": "Aiello",
+//   "immagine": "url_immagine_aiello.jpg"
+// },
+// {
+//   "id": 15,
+//   "nome": "Aka 7even",
+//   "immagine": "url_immagine_aka_7even.jpg"
+// },
+// {
+//   "id": 1,
+//   "nome": "Radical",
+//   "immagine": "url_immagine_aaron_cenere.jpg"
+// },
+// {
+//   "id": 1,
+//   "nome": "Thelonius B.",
+//   "immagine": "url_immagine_aaron_cenere.jpg"
+// },
+
+// {
+//   "id": 1,
+//   "nome": "Bassi Maestro",
+//   "immagine": "url_immagine_aaron_cenere.jpg"
+// },
+// {
+//   "id": 1,
+//   "nome": "CanovA",
+//   "immagine": "url_immagine_aaron_cenere.jpg"
+// },
+// {
+//   "id": 1,
+//   "nome": "Drast",
+//   "immagine": "url_immagine_aaron_cenere.jpg"
+// },
+// {
+//   "id": 1,
+//   "nome": "Negromaro",
+//   "immagine": "url_immagine_aaron_cenere.jpg"
+// },
+// {
+//   "id": 1,
+//   "nome": "Lucio Dalla",
+//   "immagine": "url_immagine_aaron_cenere.jpg"
+// }
