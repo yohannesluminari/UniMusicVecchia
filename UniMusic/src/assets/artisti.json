@@ -18,5 +18,170 @@
     "id": 4,
     "name": "Shiva",
     "image": "/assets/artistiImg/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Guè",
+    "image": "/assets/artistiImg/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tedua",
+    "image": "/assets/artistiImg/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Marracash",
+    "image": "/assets/artistiImg/7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Pinguini Tattici Nucleari",
+    "image": "/assets/artistiImg/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Capo Plaza",
+    "image": "/assets/artistiImg/9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Thasup",
+    "image": "/assets/artistiImg/10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "ANNA",
+    "image": "/assets/artistiImg/11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Madame",
+    "image": "/assets/artistiImg/12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Annalisa",
+    "image": "/assets/artistiImg/13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Angelina Mango",
+    "image": "/assets/artistiImg/14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Maneskin",
+    "image": "/assets/artistiImg/15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Rose Villain",
+    "image": "/assets/artistiImg/16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Baby Gang",
+    "image": "/assets/artistiImg/17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Gigi D’Agostino",
+    "image": "/assets/artistiImg/18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Laura Pausini",
+    "image": "/assets/artistiImg/19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Gigi D'Alessio",
+    "image": "/assets/artistiImg/20.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Tony Boy",
+    "image": "/assets/artistiImg/21.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Gemello",
+    "image": "/assets/artistiImg/22.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Bnkr44",
+    "image": "/assets/artistiImg/23.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Mecna",
+    "image": "/assets/artistiImg/24.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Nayt",
+    "image": "/assets/artistiImg/25.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Franco126",
+    "image": "/assets/artistiImg/26.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Ketama126",
+    "image": "/assets/artistiImg/27.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Pretty Solero",
+    "image": "/assets/artistiImg/28.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Calcutta",
+    "image": "/assets/artistiImg/29.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Bresh",
+    "image": "/assets/artistiImg/30.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Capo Plaza",
+    "image": "/assets/artistiImg/31.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Frah Quintale",
+    "image": "/assets/artistiImg/32.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Ugo Borgetti",
+    "image": "/assets/artistiImg/33.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Mace",
+    "image": "/assets/artistiImg/34.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Vegas Jones",
+    "image": "/assets/artistiImg/35.jpg"
+  },
+  {
+    "id": 36,
+    "name": "vale Pain",
+    "image": "/assets/artistiImg/36.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Asp126",
+    "image": "/assets/artistiImg/37.jpg"
   }
 ]
