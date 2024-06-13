@@ -1,18 +1,20 @@
+/* carousel.component.css */
+
+/* Variabili CSS globali */
 :root {
-  --width: 100px;
-  --height: 50px;
-  --quantity: 10;
-  --image-width: 200px;
-  --image-height: 200px;
+  --quantity: 10; /* Numero di elementi nel carosello */
+  --image-width: 200px; /* Larghezza delle immagini */
+  --image-height: 200px; /* Altezza delle immagini */
 }
 
+/* Contenitore del carosello */
 .slider {
-  margin-top: 200px;
+  margin-top: 200px; /* Margine superiore per posizionamento */
   width: 100%;
-  height: var(--height);
+  height: var(--height); /* Altezza del carosello basata su variabile */
   overflow: hidden;
   position: relative;
-  border: 1px solid red;
+  border: 1px solid red; /* Bordo rosso per visualizzazione */
   mask-image: linear-gradient(
     to right,
     transparent,
@@ -20,47 +22,56 @@
     black 90%,
     transparent
   );
-  margin-bottom: 20px; /* aggiungi un po' di spazio tra i caroselli */
+  margin-bottom: 20px; /* Spazio tra i caroselli */
 }
 
+/* Lista degli elementi del carosello */
 .slider .list {
   display: flex;
   width: 100%;
-  min-width: calc(var(--width) * var(--quantity));
+  min-width: calc(var(--width) * var(--quantity)); /* Larghezza minima basata sulla quantità di elementi */
   position: relative;
 }
 
+/* Elemento singolo del carosello */
 .slider .list .item {
-  width: var(--width);
-  height: var(--height);
+  width: var(--width); /* Larghezza dell'elemento */
+  height: var(--height); /* Altezza dell'elemento */
   position: absolute;
   left: 100%;
-  animation: autoRun 10s linear infinite;
-  animation-delay: calc((10s / var(--quantity)) * var(--position));
+  animation: autoRun 10s linear infinite; /* Animazione infinita */
+  transition: filter 0.5s;
+  animation-delay: calc((10s / var(--quantity)) * var(--position)); /* Ritardo basato sulla posizione dell'elemento */
 }
 
 .slider .list .item img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* assicura che l'immagine copra tutto lo spazio disponibile */
+  object-fit: cover; /* Assicura che l'immagine copra tutto lo spazio disponibile */
 }
 
 /* Specifiche per il carosello di immagini */
 .slider img {
-  width: var(--image-width);
-  height: var(--image-height);
+  width: var(--image-width); /* Larghezza delle immagini */
+  height: var(--image-height); /* Altezza delle immagini */
 }
 
-/* Animazione */
+/* Animazione per lo scorrimento degli elementi */
 @keyframes autoRun {
   from {
-    left: 100%;
+    left: 100%; /* Inizio da destra */
   }
   to {
-    left: calc(var(--width) * -1);
+    left: calc(var(--width) * -1); /* Fine a sinistra */
   }
 }
 
+/* Pausa l'animazione quando il carosello è in hover */
 .slider:hover .item {
-  animation-play-state: paused ;
+  animation-play-state: paused !important;
+  filter: grayscale(1);
+}
+
+.slider .item:hover {
+  filter: grayscale(0);
 }
