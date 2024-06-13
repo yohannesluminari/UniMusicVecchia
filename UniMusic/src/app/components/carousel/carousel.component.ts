@@ -14,6 +14,7 @@ interface Artist {
 })
 export class CarouselComponent implements OnInit {
   artists: Artist[] = [];
+  isAnimationPaused: boolean = false; // Variabile per tracciare lo stato dell'animazione
 
   constructor(private http: HttpClient) {}
 
@@ -26,5 +27,13 @@ export class CarouselComponent implements OnInit {
       .subscribe(data => {
         this.artists = data;
       });
+  }
+
+  toggleSliderAnimation(): void {
+    this.isAnimationPaused = !this.isAnimationPaused;
+    const sliderItems = document.querySelectorAll('.slider .item');
+    sliderItems.forEach(item => {
+      (item as HTMLElement).style.animationPlayState = this.isAnimationPaused ? 'paused' : 'running';
+    });
   }
 }

@@ -53,3 +53,18 @@
     filter: grayscale(0);
   }
 }
+/* Stile per il pulsante di controllo dell'animazione */
+.control-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.control-button:hover {
+  background-color: var(--accent-color);
+}
