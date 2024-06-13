@@ -15,6 +15,7 @@ body {
   /* Media query per schermi tra 476px e 957px */
 }
 
+
 /* Contenitore principale del contenuto */
 .content {
   text-align: center; /* Centra il testo orizzontalmente */
@@ -52,7 +53,6 @@ body {
   justify-content: center; /* Centra orizzontalmente i cubi */
   align-items: center; /* Centra verticalmente i cubi */
   margin-top: 9%;
-
   .cube {
     position: relative;
     z-index: 2;
