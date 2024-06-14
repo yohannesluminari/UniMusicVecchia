@@ -1,5 +1,6 @@
-import { AudioService } from './../../audio.service';
+
 import { Component } from '@angular/core';
+import { AudioService } from '../../service/audio.service';
 
 
 @Component({
@@ -8,7 +9,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  
+
   currentAudioIndex: number | null = null;
 
   audioFiles: string[] = [
