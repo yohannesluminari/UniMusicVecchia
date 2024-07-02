@@ -1,6 +1,6 @@
 #light:hover {
-  color: white; /* Cambia il colore del testo in bianco */
-  cursor: pointer; /* Cambia il cursore del mouse in una mano quando passi sopra il testo */
+  color: white;
+  cursor: pointer;
 }
 
 body {
@@ -10,18 +10,18 @@ body {
   background-color: rgb(255, 255, 255);
 }
 .slogan {
-  font-size: 20px; /* Riduci la dimensione del testo */
-  margin-top: 20px; /* Aggiungi un margine sopra ai paragrafi */
-  margin-bottom: 20px; /* Aggiungi un margine sotto ai paragrafi */
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   /* Media query per schermi tra 476px e 957px */
 }
 
 
 /* Contenitore principale del contenuto */
 .content {
-  text-align: center; /* Centra il testo orizzontalmente */
-  color: white; /* Colore del testo */
-  margin-top: 14%; /* Spazio tra il contenuto di testo e i cubi */
+  text-align: center;
+  color: white;
+  margin-top: 14%;
   @media (min-width: 476px) and (max-width: 957px) {
     margin-top: 30%; /* Aumenta il margine superiore per schermi compresi tra 476px e 957px */
   }
@@ -32,27 +32,27 @@ body {
 }
 // SECTION SX AND DX
 .left-paragraph {
-  text-align: left; /* Allinea il testo a sinistra */
-  margin-right: auto; /* Spinge il paragrafo a sinistra */
+  text-align: left;
+  margin-right: auto;
   color: var(--accent-color);
   font-size: 20px;
 }
 
 .right-paragraph {
-  text-align: right; /* Allinea il testo a destra */
-  margin-left: auto; /* Spinge il paragrafo a destra */
+  text-align: right;
+  margin-left: auto;
   color: var(--accent-color);
   font-size: 20px;
 }
 
 /* Contenitore principale */
 .container {
-  transform: skewY(-20deg); /* Mantieni lo skew */
-  animation: animate 5s linear infinite; /* Mantieni l'animazione */
+  transform: skewY(-20deg);
+  animation: animate 5s linear infinite;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Centra orizzontalmente i cubi */
-  align-items: center; /* Centra verticalmente i cubi */
+  justify-content: center;
+  align-items: center;
   margin-top: 9%;
   .cube {
     position: relative;
@@ -193,13 +193,13 @@ body {
 @media screen and (min-width: 739px) and (max-width: 1430px) {
   /* Imposta il margin-top per tutti i dispositivi */
   .container {
-    margin-top: 158px; /* Mantieni questa regola invariata */
+    margin-top: 158px;
   }
 }
 
-/* Aggiunge la regola .container per il media query max-width: 750px */
+
 @media screen and (max-width: 750px) {
   .container {
-    margin-top: 30%; /* Sovrascrive la regola per il margin-top */
+    margin-top: 30%;
   }
 }

@@ -1,9 +1,8 @@
-/* Aggiungi questo al tuo file CSS */
 nav {
   position: fixed; /* Fissa la navbar in cima */
-  top: 0; /* Posiziona la navbar al top della pagina */
-  left: 0; /* Allinea la navbar a sinistra */
-  width: 100%; /* Estendi la navbar per tutta la larghezza */
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
   .logo {
     width: 6%;
@@ -19,8 +18,8 @@ nav {
 
   // ACTIVE LINKS
   .navbar-nav .nav-item.active .nav-link {
-    background-color: var(--accent-color); /* Colore di sfondo per il link attivo */
-    color: white; /* Colore del testo per il link attivo */
+    background-color: var(--accent-color);
+    color: white;
   }
 }
 
@@ -46,8 +45,8 @@ nav {
   /* Centra il form di ricerca e il pulsante "Sign up" sotto i link */
   .navbar-collapse form,
   .navbar-collapse a.btn {
-    width: 100%; /* Larghezza comoda per i dispositivi mobili */
-    margin: 10px 0; /* Spaziatura tra il form e il pulsante */
+    width: 100%;
+    margin: 10px 0;
     text-align: center;
   }
 }

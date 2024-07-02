@@ -4,7 +4,7 @@
   --quantity: 10;
   --duration: 5s; /* Aggiunto per controllare la durata dell'animazione */
 
-  margin-top: 20px; /* Assicura un margine sopra il carousel */
+  margin-top: 20px;
   width: 100%;
   height: var(--height);
   overflow: hidden;
@@ -23,9 +23,9 @@
       height: var(--height);
       position: absolute;
       left: 100%;
-      animation: autoRun var(--duration) linear infinite; /* Usa la variabile per controllare la durata dell'animazione */
+      animation: autoRun var(--duration) linear infinite;
       transition: filter 0.5s;
-      animation-delay: calc((var(--duration) / var(--quantity)) * var(--position)); /* Usa la variabile per ritardo animazione */
+      animation-delay: calc((var(--duration) / var(--quantity)) * var(--position)); 
 
       img {
         width: 100%;
