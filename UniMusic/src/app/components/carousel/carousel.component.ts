@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 interface Artist {
@@ -12,7 +12,7 @@ interface Artist {
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.scss']
 })
-export class CarouselComponent implements OnInit {
+export class CarouselComponent implements OnInit, AfterViewInit {
   artists: Artist[] = [];
   isAnimationPaused: boolean = false; // Variabile per tracciare lo stato dell'animazione
 
@@ -20,6 +20,11 @@ export class CarouselComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadArtists();
+  }
+
+  ngAfterViewInit(): void {
+    // Pre-caricamento delle immagini
+    this.preloadImages();
   }
 
   loadArtists(): void {
@@ -34,6 +39,14 @@ export class CarouselComponent implements OnInit {
     const sliderItems = document.querySelectorAll('.slider .item');
     sliderItems.forEach(item => {
       (item as HTMLElement).style.animationPlayState = this.isAnimationPaused ? 'paused' : 'running';
+    });
+  }
+
+  // Funzione per pre-caricare tutte le immagini
+  preloadImages(): void {
+    this.artists.forEach(artist => {
+      const img = new Image();
+      img.src = artist.image;
     });
   }
 }
