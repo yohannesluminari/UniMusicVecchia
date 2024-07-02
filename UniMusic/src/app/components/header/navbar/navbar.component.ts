@@ -19,4 +19,8 @@ export class NavbarComponent {
   isLinkActive(route: string): boolean {
     return this.router.url === route;
   }
+
+  closeNavbar(): void {
+    this.showNavbar = false;
+  }
 }

@@ -22,6 +22,11 @@ nav {
     color: white;
   }
 }
+.navbar-toggler-icon {
+  background-color: white;
+  border-radius: 2px;
+}
+
 
 /* Gestione dell'allineamento su dispositivi mobili */
 @media (max-width: 991.98px) {
