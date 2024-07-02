@@ -10,9 +10,6 @@ const routes: Routes = [
   },
   {
     path: 'pages/quiz', loadChildren: () => import('./pages/quiz/quiz.module').then(m => m.QuizModule)
-  },
-  {
-    path: 'pages/musicPlayer', loadChildren: () => import('./pages/music-player/music-player.module').then(m => m.MusicPlayerModule)
   }];
 
 @NgModule({
