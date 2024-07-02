@@ -28,7 +28,7 @@
 }
 
 body {
-  background-color: var(--primary-color); /* Sfondo scuro di default */
+  background-color: rgb(36, 150, 159) !important;
   color: var(--text-color-dark); /* Testo chiaro di default */
   transition: background-color 0.3s ease, color 0.3s ease;
 }
