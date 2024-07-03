@@ -9,6 +9,8 @@ import { LoginComponent } from '../../components/login/login.component';
 
 import { CarouselComponent } from '../../components/carousel/carousel.component';
 import { HttpClientModule } from '@angular/common/http';
+import { YohannesLuminariComponent } from '../../components/yohannes-luminari/yohannes-luminari.component';
+
 
 
 
@@ -18,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     PianoComponent,
     SignUpComponent,
     LoginComponent,
-    CarouselComponent
+    CarouselComponent,
+    YohannesLuminariComponent
   ],
   imports: [
     CommonModule,
