@@ -1,45 +1,62 @@
+/* Footer */
 .site-footer {
   color: #fff;
   padding: 20px 0;
-  font-size: 14px;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.footer-content {
+.site-footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer-left p {
+.site-footer .footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer .footer-left {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.site-footer .footer-left p {
   margin: 0;
 }
 
-.footer-right .footer-nav {
+.site-footer .footer-links a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.site-footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+.site-footer .footer-right {
+  text-align: center;
+}
+
+.site-footer .footer-nav {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
 }
 
-.footer-right .footer-nav li {
-  display: inline-block;
-  margin-right: 20px;
+.site-footer .footer-nav li {
+  margin-right: 10px;
 }
 
-.footer-right .footer-nav li:last-child {
-  margin-right: 0;
-}
+@media (max-width: 768px) {
+  .portfolio-container {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.footer-right .footer-nav li a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.footer-right .footer-nav li a:hover {
-  color: #007BFF;
+  .image-section, .info-section {
+    flex: none;
+    width: 100%;
+    padding: 10px;
+  }
 }
