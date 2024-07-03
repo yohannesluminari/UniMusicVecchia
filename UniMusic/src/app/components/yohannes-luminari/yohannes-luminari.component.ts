@@ -15,7 +15,7 @@ export class YohannesLuminariComponent {
 
   private maxArtists: number = 188;
   private maxTracks: number = 600;
-  
+
   constructor() { }
 
   ngOnInit(): void {

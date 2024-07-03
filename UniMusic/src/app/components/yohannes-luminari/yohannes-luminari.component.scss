@@ -89,16 +89,59 @@
 }
 
 
-.animated-number {
+
+.animated-artists {
   font-weight: bold;
-  background: linear-gradient(to right, #007BFF, #0056b3);
+  background: linear-gradient(to right,
+    #FF4500 0%,
+    #FF6347 25%,
+    #FF7F50 50%,
+    #FFA07A 75%,
+    #FFB6C1 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 0.3s ease, -webkit-text-fill-color 0.3s ease;
 }
 
-.animated-number:hover {
+.animated-artists:hover {
+  background-position: 100%;
+  -webkit-text-fill-color: #FF4500;
+}
+
+.animated-tracks {
+  font-weight: bold;
+  background: linear-gradient(to right,
+    #007BFF 0%,
+    #0066cc 25%,
+    #0056b3 50%,
+    #004499 75%,
+    #003380 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.3s ease, -webkit-text-fill-color 0.3s ease;
+}
+
+.animated-tracks:hover {
   background-position: 100%;
   -webkit-text-fill-color: #007BFF;
+}
+.cobalt-gradient {
+  font-weight: bold;
+  background: linear-gradient(to right,
+    #3399FF 0%,
+    #66CCFF 25%,
+    #66CCFF 50%,
+    #3399FF 75%,
+    #0066CC 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.3s ease, -webkit-text-fill-color 0.3s ease;
+}
+
+.cobalt-gradient:hover {
+  background-position: 100%;
+  -webkit-text-fill-color: #3399FF;
 }
