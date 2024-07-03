@@ -3,14 +3,26 @@
     <img src="./assets/profilePic/yl.jpg" alt="Profile Image" class="profile-image">
   </div>
   <div class="info-section">
-    <h2>{{ currentRole }}</h2>
+    <!-- Usa <span> per mantenere gli elementi sulla stessa linea -->
     <p class="introduction">
-      Ciao, sono Yohannes, un appassionato di tecnologia con una forte propensione verso lo sviluppo software. Mi piace creare soluzioni innovative e trovare nuovi modi per migliorare l'esperienza utente.
+      Hi, I'm Yohannes Luminari, an italian <span class="current-role">{{ currentRole }}</span>.
+      I want to introduce you to my first major website, which is centered around a cornerstone of my life, as it is for many others: Music.
+
+      UniMusic is a platform created to bring people together. It was developed in under a month to meet external needs, so if you notice any
+      issues or bugs, or if you have suggestions for improvements, please don't hesitate to contact me. I would greatly appreciate your feedback.
+      Not only do I enjoy working on this project, but it's also a valuable learning experience for me.
+
+    </p>
+
+    <p class="introduction unimusic">
+      Once registered, you'll have the opportunity to listen to over
+      <span class="animated-number">+{{ animatedArtists }}</span> artists and more than
+      <span class="animated-number">+{{ animatedTracks }}</span> tracks.
+      In case your favorite artists or anyone you like isn't listed, feel free to contact me, and I'll add them.
     </p>
     <button class="contact-button" (click)="scrollToContact()">Contact Us</button>
   </div>
 </div>
-
 <!-- Sezione di contatto nascosta -->
 <div id="contact-section" class="contact-section">
   <h3>Contact Me</h3>

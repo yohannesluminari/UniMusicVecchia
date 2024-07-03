@@ -8,6 +8,7 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   background-color: #f8f8f8;
+  //max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -28,10 +29,11 @@
   padding: 20px;
 }
 
-.info-section h2 {
+.info-section .current-role {
   font-size: 24px;
   color: #333;
-  margin-bottom: 10px;
+  display: inline-block; /* Mantiene lo stile in linea */
+  font-weight: bold;
 }
 
 .info-section p.introduction {
@@ -84,4 +86,19 @@
     width: 100%;
     padding: 10px;
   }
+}
+
+
+.animated-number {
+  font-weight: bold;
+  background: linear-gradient(to right, #007BFF, #0056b3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.3s ease, -webkit-text-fill-color 0.3s ease;
+}
+
+.animated-number:hover {
+  background-position: 100%;
+  -webkit-text-fill-color: #007BFF;
 }
