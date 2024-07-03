@@ -19,8 +19,6 @@ import { YohannesLuminariComponent } from '../../components/yohannes-luminari/yo
   declarations: [
     HomeComponent,
     PianoComponent,
-    SignUpComponent,
-    LoginComponent,
     CarouselComponent,
     YohannesLuminariComponent,
     FooterComponent

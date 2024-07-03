@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 import { ProfileRoutingModule } from './profile-routing.module';
 import { ProfileComponent } from './profile.component';
 import { CarouselComponent } from '../../components/carousel/carousel.component';
+import { SignUpComponent } from '../../components/sign-up/sign-up.component';
 
 
 @NgModule({
   declarations: [
-    ProfileComponent
+    ProfileComponent,
+    SignUpComponent
   ],
   imports: [
     CommonModule,
