@@ -1,4 +1,5 @@
 /* Footer */
+
 .site-footer {
   color: #fff;
   padding: 20px 0;
@@ -30,7 +31,7 @@
 }
 
 .site-footer .footer-links a:hover {
-  text-decoration: underline;
+  color: red;
 }
 
 .site-footer .footer-right {
@@ -46,6 +47,13 @@
 
 .site-footer .footer-nav li {
   margin-right: 10px;
+  a{
+    text-decoration: none;
+    color: #fff;
+  }:hover{
+    color: red;
+    text-decoration: underline;
+  }
 }
 
 @media (max-width: 768px) {

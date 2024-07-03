@@ -9,6 +9,7 @@ import { LoginComponent } from '../../components/login/login.component';
 
 import { CarouselComponent } from '../../components/carousel/carousel.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from '../../components/footer/footer.component';
 import { YohannesLuminariComponent } from '../../components/yohannes-luminari/yohannes-luminari.component';
 
 
@@ -21,7 +22,8 @@ import { YohannesLuminariComponent } from '../../components/yohannes-luminari/yo
     SignUpComponent,
     LoginComponent,
     CarouselComponent,
-    YohannesLuminariComponent
+    YohannesLuminariComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
