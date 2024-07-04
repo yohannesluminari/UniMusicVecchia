@@ -3,6 +3,7 @@
     <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <a class="navbar-brand" href="#"><img src="./assets/UniMusic.png" width="100" /></a>
     <div class="collapse navbar-collapse" [ngClass]="{ 'show': showNavbar }">
       <ul class="navbar-nav me-auto mb-0">
@@ -18,12 +19,17 @@
         <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/musicPlayer') }">
           <a class="nav-link" routerLink="/pages/musicPlayer" (click)="closeNavbar()">Music Player</a>
         </li>
+
+          <!-- Icona "person-circle" affiancata all'ultimo link -->
+          <li class="nav-item mx-4">
+            <a href=""><i class="bi bi-person-circle"></i></a>
+          </li>
       </ul>
+
       <form class="me-2 mb-2 mb-lg-0">
         <input type="text" class="form-control form-control-sm" placeholder="Search" />
       </form>
       <a class="btn btnNav commerce" href="">m-commerce</a>
-      <a class="btn btnNav" href="">UniMusic Social</a>
     </div>
   </div>
 </nav>
