@@ -1,22 +1,12 @@
-
 #Container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  height: 100%;
-}
-
-#rays {
-  z-index: 2;
-  position: relative;
-  bottom: -1.5em;
-  animation: rays 2s ease-in-out infinite;
+  justify-content: center; /* Centra il contenitore verticalmente e orizzontalmente */
+  height: 100vh; /* Altezza del 100% dello schermo */
 }
 
 .form {
-  position: relative;
-  top: 5em;
   padding: 4%;
   z-index: 3;
   display: flex;
@@ -91,15 +81,15 @@
 
 @keyframes float {
   0% {
-    position: relative;
+    /* Nessun cambiamento necessario qui */
   }
 
   50% {
-    top: 50px;
+    top: 0; /* Modifica il valore in base a come desideri che fluttui l'elemento */
   }
 
   100% {
-    position: relative;
+    /* Nessun cambiamento necessario qui */
   }
 }
 

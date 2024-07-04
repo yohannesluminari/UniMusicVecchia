@@ -1,5 +1,45 @@
-body{
-  margin-top: 160px;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c34;
   color: white;
   text-align: center;
+}
+
+.container {
+  max-width: 600px; /* Imposta una larghezza massima per il contenuto */
+  margin: auto; /* Centra il contenuto orizzontalmente */
+  padding: 20px;
+}
+
+.container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #007bff;
+}
+
+.container a:hover {
+  background-color: #0056b3;
+}
+
+.container a:first-child {
+  margin-bottom: 20px;
 }

@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { PianoComponent } from '../../components/piano/piano.component';
-import { SignUpComponent } from '../../components/sign-up/sign-up.component';
 
 import { CarouselComponent } from '../../components/carousel/carousel.component';
 import { HttpClientModule } from '@angular/common/http';

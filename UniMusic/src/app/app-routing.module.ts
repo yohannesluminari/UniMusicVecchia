@@ -11,9 +11,7 @@ const routes: Routes = [
   {
     path: 'pages/quiz', loadChildren: () => import('./pages/quiz/quiz.module').then(m => m.QuizModule)
   },
-  { path: 'auth/auth', loadChildren: () => import('./auth/auth/auth.module').then(m => m.AuthModule) },
-  { path: 'auth', loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule) }];
-
+  { path: 'auth', loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule) }]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
