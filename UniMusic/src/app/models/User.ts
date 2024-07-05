@@ -1,7 +1,10 @@
-import { Artist, Album } from "./Artist";
+import { Album } from "./Album";
+import { Artist } from "./Artist";
 import { Item } from "./Item";
 import { Post } from "./Post";
 import { Track } from "./Track";
+
+
 
 
 export interface User {
