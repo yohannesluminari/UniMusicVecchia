@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Centra il contenitore verticalmente e orizzontalmente */
-  height: 100vh; /* Altezza del 100% dello schermo */
+  justify-content: center;
+  min-height: 100vh; /* Assicura che il contenitore abbia almeno l'altezza della viewport */
 }
+
 
 .form {
   padding: 4%;

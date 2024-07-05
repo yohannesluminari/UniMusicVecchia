@@ -19,8 +19,8 @@
       <span class="animated-artists">+{{ animatedArtists }}</span> artists and more than
       <span class="animated-tracks">+{{ animatedTracks }}</span> tracks.
       In case your favorite artists or anyone you like isn't listed, feel free to contact me, and I'll add them.
-      <button class="btn btn-success">Register</button>
-      <button class="btn btn-danger mx-3">Login</button>
+      <button class="btn btn-success" routerLink="/auth/sign-up">Register</button>
+      <button class="btn btn-danger mx-3" routerLink="/auth/login">Login</button>
     </p>
 
     <button class="contact-button" (click)="scrollToContact()">Contact me</button>
