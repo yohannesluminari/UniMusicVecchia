@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './components/header/navbar/navbar.component';
-import { LoginComponent } from './auth/login/login.component';
 
 @NgModule({
   declarations: [

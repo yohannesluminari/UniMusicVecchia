@@ -10,17 +10,32 @@
         <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/') }">
           <a class="nav-link" aria-current="page" routerLink="/" (click)="closeNavbar()">Home</a>
         </li>
-        <!-- <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/quiz') }">
+
+        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/auth') }">
+          <a class="nav-link" routerLink="/pages/auth" (click)="closeNavbar()">Auth</a>
+        </li>
+
+        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/user') }">
+          <a class="nav-link" routerLink="/pages/user" (click)="closeNavbar()">User</a>
+        </li>
+
+        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/quiz') }">
           <a class="nav-link" routerLink="/pages/quiz" (click)="closeNavbar()">Quiz</a>
         </li>
-        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/musicPlayer') }">
-          <a class="nav-link" routerLink="/pages/musicPlayer" (click)="closeNavbar()">Music Player</a>
-        </li> -->
 
-          <!-- Icona "person-circle" affiancata all'ultimo link -->
-          <li class="nav-item mx-4">
-            <a href=""><i class="bi bi-person-circle"></i></a>
-          </li>
+        <!-- Aggiungi link per Login e Sign Up -->
+        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/auth/login') }">
+          <a class="nav-link" routerLink="/auth/login" (click)="closeNavbar()">Login</a>
+        </li>
+
+        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/auth/sign-up') }">
+          <a class="nav-link" routerLink="/auth/sign-up" (click)="closeNavbar()">Sign Up</a>
+        </li>
+
+        <!-- Icona "person-circle" affiancata all'ultimo link -->
+        <li class="nav-item mx-4">
+          <a href=""><i class="bi bi-person-circle"></i></a>
+        </li>
       </ul>
 
       <form class="me-2 mb-2 mb-lg-0">
