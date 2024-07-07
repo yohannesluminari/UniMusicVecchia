@@ -12,25 +12,26 @@
         </li>
 
         <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/auth') }">
-          <a class="nav-link" routerLink="/pages/auth" (click)="closeNavbar()">Auth</a>
+          <a class="nav-link" routerLink="pages/auth" (click)="closeNavbar()">Auth</a>
         </li>
 
         <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/user') }">
-          <a class="nav-link" routerLink="/pages/user" (click)="closeNavbar()">User</a>
+          <a class="nav-link" routerLink="pages/user" (click)="closeNavbar()">User</a>
         </li>
 
         <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/quiz') }">
-          <a class="nav-link" routerLink="/pages/quiz" (click)="closeNavbar()">Quiz</a>
+          <a class="nav-link" routerLink="pages/quiz" (click)="closeNavbar()">Quiz</a>
+        </li>
+<!--
+        Aggiungi link per Login e Sign Up -->
+        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/auth/login') }">
+          <a class="nav-link" routerLink="/pages/auth/login" (click)="closeNavbar()">Login</a>
         </li>
 
-        <!-- Aggiungi link per Login e Sign Up -->
-        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/auth/login') }">
-          <a class="nav-link" routerLink="/auth/login" (click)="closeNavbar()">Login</a>
+        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/pages/auth/sign-up') }">
+          <a class="nav-link" routerLink="/pages/auth/sign-up" (click)="closeNavbar()">Sign Up</a>
         </li>
 
-        <li class="nav-item mx-4" [ngClass]="{ 'active': isLinkActive('/auth/sign-up') }">
-          <a class="nav-link" routerLink="/auth/sign-up" (click)="closeNavbar()">Sign Up</a>
-        </li>
 
         <!-- Icona "person-circle" affiancata all'ultimo link -->
         <li class="nav-item mx-4">

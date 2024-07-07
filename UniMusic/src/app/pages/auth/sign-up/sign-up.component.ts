@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
-
 import { Router } from '@angular/router';
-import { AuthService } from '../auth.service';
 import { ISignUp } from '../../../models/SignUp';
+import { AuthService } from '../auth.service';
 
 @Component({
   selector: 'app-sign-up',
