@@ -12,13 +12,15 @@ export class AuthService {
   private registerUrl = environment.registerUrl;
   private loginUrl = environment.loginUrl;
 
+  private apiUrl = 'http://localhost:8080/users'; // URL base dell'API
+
   constructor(private http: HttpClient) {}
 
-  register(userData: ISignUp): Observable<any> {
-    return this.http.post<any>(this.registerUrl, userData);
+  login(loginData: ILoginData): Observable<any> {
+    return this.http.post(`${this.apiUrl}/login`, loginData);
   }
 
-  login(loginData: ILoginData): Observable<any> {
-    return this.http.post<any>(this.loginUrl, loginData);
+  register(registerData: ISignUp): Observable<any> {
+    return this.http.post(`${this.apiUrl}/register`, registerData);
   }
 }

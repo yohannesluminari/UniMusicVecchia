@@ -29,7 +29,6 @@ export class SignUpComponent {
         },
         error => {
           console.error('Registration error:', error);
-          // Handle registration error, show error message, etc.
         }
       );
   }

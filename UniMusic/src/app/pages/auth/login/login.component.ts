@@ -21,11 +21,10 @@ export class LoginComponent {
       .subscribe(
         data => {
           console.log('Login successful:', data);
-          this.router.navigate(['travels']);
+          this.router.navigate(['pages/user']);
         },
         error => {
           console.error('Login error:', error);
-          // Handle login error, show error message, etc.
         }
       );
   }
